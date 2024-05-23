@@ -49,7 +49,7 @@ node* reverse(node* head){
     return newHead;
 }
 
-int main()
+void main()
 {
     node* head=NULL;
     insertAtTail(head,1);
@@ -58,5 +58,4 @@ int main()
     insertAtTail(head,4);
     insertAtTail(head,5);
     display(head);
-    return 0;
 }
